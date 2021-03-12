@@ -3,7 +3,7 @@
  * FILE: upload.tsx
  * PACKAGE: pages
  * AUTHOR: Mohammed SalmanKhan M A
- * DATE: 03/21/2021
+ * DATE: 03/12/2021
  * VERSION: 0.1
  * ABSTRACT: This page contains design and business logic to upload image.
  * HISTORY: - Mohammed SalmanKhan M A - created fist cut of the code.
@@ -86,7 +86,7 @@ export default function Upload() {
           width="20"
           height="20"
           style={{ marginTop: "10px", marginLeft: "20px" }}
-          onClick={() => copy}
+          onClick={copy}
         />
         <span>{copied && "Copied!"}</span>
       </div>

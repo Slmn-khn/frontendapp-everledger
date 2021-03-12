@@ -3,7 +3,7 @@
  * FILE: contants.ts
  * PACKAGE: componnets
  * AUTHOR: Mohammed SalmanKhan M A
- * DATE: 03/21/2021
+ * DATE: 03/12/2021
  * VERSION: 0.1
  * ABSTRACT: This page contains string constants.
  * HISTORY: - Mohammed SalmanKhan M A - created fist cut of the code.

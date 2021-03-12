@@ -3,7 +3,7 @@
  * FILE: Navbar.tsx
  * PACKAGE: components
  * AUTHOR: Mohammed SalmanKhan M A
- * DATE: 03/21/2021
+ * DATE: 03/12/2021
  * VERSION: 0.1
  * ABSTRACT: This page is contains design for Navbar.
  * HISTORY: - Mohammed SalmanKhan M A - created fist cut of the code.
@@ -25,6 +25,13 @@ const Navbar = () => {
             <Image src="/el_logo_white.png" width={180} height={30} />
           </a>
         </Link>
+        <ul id="nav-mobile" className="right">
+          <li>
+            <Link href="/backend">
+              <a>Backend</a>
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
   );
