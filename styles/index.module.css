@@ -1,0 +1,42 @@
+.home {
+  background-image: url(/landing_page_img.jpg);
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-size: cover;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mainLabelContent {
+  font-size: 40px;
+  font-family: Lato;
+  color: white;
+}
+
+.subLabelContent {
+  font-size: 20px;
+  font-family: Lato;
+  color: white;
+  font-weight: 400;
+  letter-spacing: -0.0168px;
+  font-style: var(--h1_typography-font-style, normal);
+}
+
+.barofProgress {
+  z-index: 50;
+}
+
+.uploadMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
